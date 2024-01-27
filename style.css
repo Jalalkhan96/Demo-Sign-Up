@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    font-size: 16px;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+   
+}
+
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-35%);
+    padding: 20px 40px;
+    background-color: #a8f5ff;
+    border-radius: 7px;
+    border-color: rgb(163, 226, 205);
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #0c0b0b;
+    margin-bottom: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.signup-header p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+
+.signup-body p {
+    margin: 10px 0;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 7px;
+    font-size: 1rem;
+    margin-top: 5px;
+    border: none;
+}
+
+.signup-body p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: #ffffffcc;
+    font-weight: 500;
+
+}
+
+.signup-body p input[type="submit"]:hover {
+    background-color: #2d86c2;
+    border: none;
+    color: #ffffffcc;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.signup_footer {
+    color: #555;
+    text-align: center;
+}
+
+.signup_footer p a {
+    color: #2d86c2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.signup_footer p a:hover {
+    color: #2d86c2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to left, #ffffff33, #f0eeee);
+    position: absolute;
+}
+
+.c1{
+    top: 42px;   
+    left: 35px;
+}
+.ccircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to left, #ffffff33, #f0eeee);
+    position: absolute;
+}
+.cc1{
+    bottom: 40px;  
+    right: 50px; 
+}
