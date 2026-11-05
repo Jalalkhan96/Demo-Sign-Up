@@ -30,7 +30,17 @@
                     <p>
                         <lable class="Password"> Your Password</lable>
                         <input type="password" id="Password" placeholder="At least 8 Char.." required>
+                        <meter id="strengthMeter" min="0" max="4" value="0"></meter>
+                        <span id="strengthLabel"></span>
                     </p>
+
+                    <p>
+                        <lable class="confirmPassword"> Confirm Password</lable>
+                        <input type="password" id="confirmPassword" placeholder="Repeat your password" required>
+                        <span id="matchMessage"></span>
+                    </p>
+
+
 
                     <p>
                        
@@ -46,6 +56,7 @@
         <div class="ccircle cc1"></div>
        
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
